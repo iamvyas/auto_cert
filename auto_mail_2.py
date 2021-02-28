@@ -32,7 +32,7 @@ def SendMail(namee,email):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login("knowisvce@gmail.com","Kn0wIsvce")
+    s.login("your_email@whoknows.com","password")
     s.sendmail('knowisvce@gmail.com',email, msg.as_string())
     s.quit()
     return
